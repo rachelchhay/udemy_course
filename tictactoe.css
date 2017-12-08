@@ -1,0 +1,34 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 70px;
+}
+
+.box2 {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.box4, .box6 {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+
+.box5 {
+  border: 1px solid #000;
+}
+
+.box8 {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
