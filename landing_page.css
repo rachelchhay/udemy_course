@@ -1,3 +1,36 @@
 body {
-  background-color: lightpink;
+  background-image: url("images/dog.jpg");
+  background-position: 50% 20%;
+  background-size: 150% auto;
+  color: #FFF;
+  font-size: 150%;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+.heading {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  transform: translateY(200%);
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+  body {
+    background-size: 250% auto;
+  }
+
+  .row {
+    transform: translateY(150%);
+  }
 }
