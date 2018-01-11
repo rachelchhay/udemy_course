@@ -3,25 +3,34 @@ body {
   background-position: 50% 20%;
   background-size: 150% auto;
   color: #FFF;
-  font-size: 150%;
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 4em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 150%;
 }
 
 .heading {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.container {
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .row {
-  transform: translateY(200%);
+  transform: translateY(150%);
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
 }
 
+hr {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
 
 
 
@@ -31,6 +40,6 @@ h1 {
   }
 
   .row {
-    transform: translateY(150%);
+    transform: translateY(100%);
   }
 }
